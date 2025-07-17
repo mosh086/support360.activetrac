@@ -2,6 +2,8 @@
 
 ###############################################
 
+![screenshot](files/support360_branchingstrategy.png)
+
 🗂️ Branching Strategy
 main es la rama de producción.
 development es la rama de integración (desarrollo).
