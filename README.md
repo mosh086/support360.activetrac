@@ -1,8 +1,104 @@
 # support360.activetrac
 
-###############################################
+---
 
-![screenshot](files/support360_branchingstrategy.png)
+# 🛠️ Sistema de Soporte360 [Activetrac] - Frontend (React)
+
+Aplicación frontend desarrollada en **React** para la gestión de tickets de soporte técnico. Permite a los usuarios reportar incidencias, dar seguimiento y comunicarse con agentes de soporte.
+
+
+---
+
+
+## 🚀 Tecnologías Utilizadas
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/) [TODO]
+- [Axios](https://axios-http.com/) - cliente HTTP [TODO]
+- [Tailwind CSS](https://tailwindcss.com/) - estilos [TODO]
+- [Redux Toolkit](https://redux-toolkit.js.org/) (opcional) [TODO]
+
+
+---
+
+
+## 📦 Instalación [TODO]
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/mosh086/support360.activetrac.git
+Accede a la carpeta del proyecto:
+
+bash
+Copiar
+Editar
+cd sistema-soporte-frontend [TODO]
+Instala las dependencias:
+
+bash
+Copiar
+Editar
+npm install
+Crea un archivo .env con las siguientes variables (según tus entornos):
+
+ini
+Copiar
+Editar
+
+Ejecuta el servidor de desarrollo:
+bash
+Copiar
+Editar
+npm run dev
+
+---
+
+
+🔧 Scripts Disponibles
+Comando	Descripción
+npm run dev	Ejecuta app en modo desarrollo
+npm run build	Compila la app para producción
+npm run preview	Vista previa post-build
+npm run lint	Linter del código (ESLint)
+
+---
+
+
+🧩 Estructura del Proyecto [TODO]
+bash
+Copiar
+Editar
+📦 sistema-soporte-frontend
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── services/       # Axios & API handlers
+│   ├── store/          # Redux o context
+│   ├── utils/
+│   └── App.jsx
+├── .env
+└── README.md
+
+
+---
+
+
+🔐 Autenticación [TODO]
+La aplicación utiliza autenticación basada en tokens (JWT) y controla el acceso según el rol (usuario/agente/admin).
+
+
+---
+
+
+📌 Funcionalidades [TODO]
+Registro e inicio de sesión
+Creación y seguimiento de Servicios de Mantenimiento
+
+
+---
+
 
 🗂️ Branching Strategy
 main es la rama de producción.
@@ -45,3 +141,6 @@ Ejemplo: hotfix/fix-login-bug
 Los feature/* se integran mediante Pull Request (PR) a development.
 Las release/* y hotfix/* se integran mediante PR a main y development.
 Todo PR debe pasar revisiones de código y pruebas automatizadas antes del merge.
+
+
+![screenshot](files/support360_branchingstrategy.png)
